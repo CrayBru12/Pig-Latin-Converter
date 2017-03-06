@@ -15,7 +15,7 @@ while True:
 		
 		print origWord + " is pyglatin for: " + pygLatinWord + "."
 				
-		quit = raw_input("\nEnter 'quit' to exit the program or enter any key to continue: ")
+		quit = raw_input("\nEnter 'quit' to exit the program or hit 'enter' to continue: ")
 				
 		if quit == "quit":
 				exit(0)
