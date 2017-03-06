@@ -8,12 +8,12 @@ while True:
 	
 		# uppercase to lowercase
 		lowercaseWord = origWord.lower()
-		pygLatinWord = lowercaseWord + lowercaseWord[0] + "ay"
+		pigLatinWord = lowercaseWord + lowercaseWord[0] + "ay"
 
-		# CONVERTS TO PYGLATIN
-		pygLatinWord = pygLatinWord[1:len(pygLatinWord)]
+		# CONVERTS TO PIG LATIN
+		pigLatinWord = pigLatinWord[1:len(pigLatinWord)]
 		
-		print origWord + " is pyglatin for: " + pygLatinWord + "."
+		print origWord + " is piglatin for: " + pigLatinWord + "."
 				
 		quit = raw_input("\nEnter 'quit' to exit the program or hit 'enter' to continue: ")
 				
