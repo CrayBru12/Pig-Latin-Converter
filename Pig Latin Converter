@@ -3,14 +3,14 @@ from sys import exit
 while True:
 	origWord = raw_input("Enter a word: ")
 	
-	# Forcing User input  
+	# forcing user input  
 	if len(origWord) > len("") and origWord.isalpha():
 	
 		# uppercase to lowercase
 		lowercaseWord = origWord.lower()
 		pigLatinWord = lowercaseWord + lowercaseWord[0] + "ay"
 
-		# CONVERTS TO PIG LATIN
+		# converts to pig latin
 		pigLatinWord = pigLatinWord[1:len(pigLatinWord)]
 		
 		print origWord + " is piglatin for: " + pigLatinWord + "."
